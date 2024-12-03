@@ -1,0 +1,2 @@
+# FarExStance
+Farsi Stance Model
