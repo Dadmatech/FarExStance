@@ -1,0 +1,1 @@
+python rag_inference.py -model_type Claude -model_id claude-3-5-sonnet-20240620 -prompt_type zero -test_set test_set_final.xlsx -test_samples_no 1440 -demon_samples_no 0 -temperature 0.5 -embedding_model sentence-transformers/all-MiniLM-L12-v2 -generation_max_token 250 -similar_chunks_no 2 -similarity_score_threshold 0.2

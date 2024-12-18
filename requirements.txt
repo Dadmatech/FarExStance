@@ -1,0 +1,22 @@
+# python==3.12.0
+langchain_community
+tiktoken
+langchain-huggingface
+langchain_experimental
+chromadb
+langchain
+bs4
+python-dotenv==1.0.0
+unstructured
+openpyxl
+networkx
+pandas
+transformers
+numpy
+scikit-learn
+sentence_transformers
+pathlib
+dadmatools
+parsivar
+torchmetrics
+peft

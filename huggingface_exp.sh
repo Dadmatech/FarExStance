@@ -1,0 +1,7 @@
+python rag_inference.py -model_type HuggingFace -prompt_type zero -prompt_template third_attempt -test_set test_set_final.xlsx -test_samples_no 1440 -demon_samples_no 0 -model_id CohereForAI/c4ai-command-r-08-2024 -load_in_4bit True -temperature 0.5 -embedding_model sentence-transformers/all-MiniLM-L12-v2 -generation_max_token 150 -similar_chunks_no 2 -similarity_score_threshold 0.2 & wait
+
+python rag_inference.py -model_type HuggingFace -prompt_type few -prompt_template third_attempt -test_set test_set_final.xlsx -test_samples_no 1440 -demon_samples_no 0 -model_id CohereForAI/c4ai-command-r-08-2024 -load_in_4bit True -temperature 0.5 -embedding_model sentence-transformers/all-MiniLM-L12-v2 -generation_max_token 150 -similar_chunks_no 2 -similarity_score_threshold 0.2 & wait
+
+python rag_inference.py -model_type HuggingFace -prompt_type zero -prompt_template fourth_attempt -test_set test_set_final.xlsx -test_samples_no 1440 -demon_samples_no 0 -model_id meta-llama/Meta-Llama-3.1-70B -load_in_4bit True -temperature 0.5 -embedding_model sentence-transformers/all-MiniLM-L12-v2 -generation_max_token 150 -similar_chunks_no 2 -similarity_score_threshold 0.2 & wait
+
+python rag_inference.py -model_type HuggingFace -prompt_type few -prompt_template fourth_attempt -test_set test_set_final.xlsx -test_samples_no 1440 -demon_samples_no 0 -model_id meta-llama/Meta-Llama-3.1-70B -load_in_4bit True -temperature 0.5 -embedding_model sentence-transformers/all-MiniLM-L12-v2 -generation_max_token 150 -similar_chunks_no 2 -similarity_score_threshold 0.2
